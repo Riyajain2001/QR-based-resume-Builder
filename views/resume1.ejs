@@ -1,0 +1,129 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+"http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+
+<head>
+     <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+
+     <title>Resume 1</title>
+     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+
+     <style type="text/css">
+        * { margin: 0; padding: 0; }
+        body { font: 16px Helvetica, Sans-Serif; line-height: 24px; background: url(images/noise.jpg); }
+        .clear { clear: both; }
+        #page-wrap { width: 800px; margin: 40px auto 60px; }
+        #pic { float: right; margin: -30px 0 0 0; }
+        h1 { margin: 0 0 16px 0; padding: 0 0 16px 0; font-size: 42px; font-weight: bold; letter-spacing: -2px; border-bottom: 1px solid #999; }
+        h2 { font-size: 20px; margin: 0 0 6px 0; position: relative; }
+        h2 span { position: absolute; bottom: 0; right: 0; font-style: italic; font-family: Georgia, Serif; font-size: 16px; color: #999; font-weight: normal; }
+        p { margin: 0 0 16px 0; }
+        a { color: #999; text-decoration: none; border-bottom: 1px dotted #999; }
+        a:hover { border-bottom-style: solid; color: black; }
+        ul { margin: 0 0 32px 17px; }
+        #objective { width: 500px; float: left; }
+        #objective p { font-family: Georgia, Serif; font-style: italic; color: #666; }
+        dt { font-style: italic; font-weight: bold; font-size: 18px; text-align: right; padding: 0 26px 0 0; width: 150px; float: left; height: 100px; border-right: 1px solid #999;  }
+        dd { width: 600px; float: right; }
+        dd.clear { float: none; margin: 0; height: 15px; }
+     </style>
+</head>
+
+<body>
+
+<div class="container">
+    <br><p>Please type the URL or Text below and click Generate!</p>
+    <form class="form" action="/scan" method="POST">
+        <input name="url" value="history.back()" class="form-control" placeholder="URL or Text" type="text" required>
+        <br>
+        <button type="submit" class="btn btn-primary" value="Get QR">Generate</button>
+    </form>
+    
+</div>
+    <div id="page-wrap">
+    
+        <img src="data:image/jpeg;base64,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" alt="Photo of Cthulu" id="pic" />
+    
+        <div id="contact-info" class="vcard">
+
+            <!-- Microformats! -->
+        
+            <h1 class="fn"> <%= name %> </h1>
+        
+            <p>
+                Cell: <span class="tel">555-666-7777</span><br />
+                Email: <a class="email" href="mailto:greatoldone@lovecraft.com"><%= email %></a>
+            </p>
+        </div>
+                
+        <div id="objective">
+            <p>
+                <%= objective %>
+            </p>
+        </div>
+        
+        <div class="clear"></div>
+        
+        <dl>
+            <dd class="clear"></dd>
+            
+            <dt>Education</dt>
+            <dd>
+                <h2><%= universityname %></h2>
+                <p><strong>Major:</strong> <%= major %><br />
+                   <strong>Minor:</strong> <%= minor %></p>
+            </dd>
+            
+            <dd class="clear"></dd>
+            
+            <dt>Skills</dt>
+            <dd>
+                <h2>Office skills</h2>
+                <p><%= officeskills %></p>
+                
+                <h2>Computer skills</h2>
+                <p><%= computerskils %></p>
+            </dd>
+            
+            <dd class="clear"></dd>
+            
+            <dt>Experience</dt>
+            <dd>
+                <h2><%= expereince1 %></h2>
+                <!-- <ul>
+                    <li>Inspired and won highest peasant death competition among servants</li>
+                    <li>Helped coordinate managers to grow cult following</li>
+                    <li>Provided untimely deaths to all who opposed</li>
+                </ul> -->
+                
+                <h2><%= experience2 %></h2>
+                <!-- <ul>
+                    <li>Worked on grass-roots promotional campaigns</li>
+                    <li>Reduced theft and property damage percentages</li>
+                    <li>Janitorial work, Laundry</li>
+                </ul>  -->
+            </dd>
+            
+            <dd class="clear"></dd>
+            
+            <dt>Hobbies</dt>
+            <dd><%= hobbies %></dd>
+            
+            <dd class="clear"></dd>
+            
+            <dt>References</dt>
+            <dd>Available on request</dd>
+            
+            <dd class="clear"></dd>
+        </dl>
+        
+        <div class="clear"></div>
+    
+    </div>
+
+
+
+</body>
+
+</html>
