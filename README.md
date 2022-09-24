@@ -5,4 +5,3 @@
 - Delete Saved resumes
 - List of Saved resumes.
 - Resume templates should include Information about the Person, Objective, Projects,       Skills, Location, Regards etc.
-# qr_code_resumer
