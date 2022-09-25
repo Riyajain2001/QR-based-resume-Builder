@@ -6,7 +6,7 @@
 - List of Saved resumes.
 - Resume templates should include Information about the Person, Objective, Projects, Skills, Location, Regards etc.
 
-# Constraints:
+## Constraints:
 - Git and Github are mandatory for your project.
 - Dockerize your entire solution and deploy it on any cloud using github action.
 - Free cloud like (Vercel, Netlify, Heroku, Railway App)
