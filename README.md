@@ -4,4 +4,11 @@
 - Saved resume can be viewed and should be editable
 - Delete Saved resumes
 - List of Saved resumes.
-- Resume templates should include Information about the Person, Objective, Projects,       Skills, Location, Regards etc.
+- Resume templates should include Information about the Person, Objective, Projects, Skills, Location, Regards etc.
+
+# Constraints:
+- Git and Github are mandatory for your project.
+- Dockerize your entire solution and deploy it on any cloud using github action.
+- Free cloud like (Vercel, Netlify, Heroku, Railway App)
+- Expose your model as an API for prediction
+- API must be deployed using docker containers.
